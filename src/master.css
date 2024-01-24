@@ -1,0 +1,90 @@
+body {
+    background: palegreen;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.header {
+    display: flex;
+    gap: 90px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.header h2 a {
+    text-decoration: none;
+    color: #947272b7;
+}
+
+.header h2 a:hover {
+    background-color: #fff;
+    color: cadetblue;
+    border-radius: 20px;
+}
+
+footer {
+    color: #0c3b3b;
+    padding: 10px 0;
+}
+
+.menu-item {
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+    max-width: 300px;
+    background-color: #f9f9f9;
+}
+
+.menu-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.harga {
+    font-weight: bold;
+    color: #ff6600;
+}
+
+.tombol-pesan {
+    background-color: #ff6600;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.tombol-pesan:hover {
+    background-color: #acff27;
+    color: black;
+}
+
+/* Media Queries */
+
+/* Laptop */
+@media(max-width: 1366px) {
+    html {
+        font-size: 75%;
+    }
+}
+
+/* Tablet */
+@media(max-width: 768px) {
+    html {
+        font-size: 62.5%;
+    }
+}
+
+/* Mobile */
+@media(max-width: 450px) {
+    html {
+        font-size: 55%;
+    }
+}
+
+/* Media Queries End */
